@@ -1,28 +1,28 @@
 class Ethos < Formula
   desc "CLI for querying Ethos user profiles, XP balances, and reputation data"
   homepage "https://github.com/trust-ethos/ethos-cli"
-  version "0.0.9"
+  version "0.0.10"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/trust-ethos/ethos-cli/releases/download/v0.0.9/ethos-v0.0.9-738c0c5-darwin-arm64.tar.gz"
-      sha256 "0a0591ef93a3e4bd8430e8187931aae1aef2e9e59ad501a48198c6cd68d04959"
+      url "https://github.com/trust-ethos/ethos-cli/releases/download/v0.0.10/ethos-v0.0.10-ca6b98f-darwin-arm64.tar.gz"
+      sha256 "0479489cdb1f757b481ceda27f8d84821325a99684fedc70fa0d0d958b1d567d"
     end
     on_intel do
-      url "https://github.com/trust-ethos/ethos-cli/releases/download/v0.0.9/ethos-v0.0.9-738c0c5-darwin-x64.tar.gz"
-      sha256 "b9f17dee493c02050172325dbdcebac64969fd974d58704aa50c932dc1322804"
+      url "https://github.com/trust-ethos/ethos-cli/releases/download/v0.0.10/ethos-v0.0.10-ca6b98f-darwin-x64.tar.gz"
+      sha256 "3409a6aa8c1bfb71bc61c539b4c0d922a0d903d87b5cf26d3d89e6a9dabdba50"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/trust-ethos/ethos-cli/releases/download/v0.0.9/ethos-v0.0.9-738c0c5-linux-arm64.tar.gz"
-      sha256 "92645823d077fc07372d1b5144efa63aa1baa0f3cb5e4426e2b0d88f22eb3f13"
+      url "https://github.com/trust-ethos/ethos-cli/releases/download/v0.0.10/ethos-v0.0.10-ca6b98f-linux-arm64.tar.gz"
+      sha256 "54a35c8faaa55a6b26d3f06b59e7b9ec72861ae1c077e4cef182ca53260cef64"
     end
     on_intel do
-      url "https://github.com/trust-ethos/ethos-cli/releases/download/v0.0.9/ethos-v0.0.9-738c0c5-linux-x64.tar.gz"
-      sha256 "5ba589a887e596084e128afc8b9b6e47f6328d6dec1c7b30fb0aa1a3baef19c4"
+      url "https://github.com/trust-ethos/ethos-cli/releases/download/v0.0.10/ethos-v0.0.10-ca6b98f-linux-x64.tar.gz"
+      sha256 "214acab1a3d890a03573b048c24311755d6e545f42c53609627a8efaea3fdab1"
     end
   end
 
